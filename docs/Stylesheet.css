@@ -1,0 +1,314 @@
+
+header{background-color: rgb(215, 228, 194);}
+
+body{background-color: rgb(138, 140, 143);
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/Backgrounds/Background.png);
+    background-size:800px
+    }
+
+
+* {
+    box-sizing: border-box;
+
+
+
+
+
+
+
+
+
+
+}
+
+.Menus{
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  padding: 5px;
+}
+.Mission_statement_2 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 3px;
+}
+.News {
+  position: absolute; 
+  padding: 40px;
+  bottom: 1; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 450px;
+  margin-top:107px
+}
+.Hours {
+  float: right;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  margin-top:107px
+}
+.Locations {
+  float: right;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(215, 228, 194);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 40px;
+    font-size: 1.5em;
+  }
+
+.Misson_statement {
+  text-align: center;
+  Margin:20px
+}
+
+.Margin_Fix {
+  Margin: 20px;
+  text-align: center;
+
+}
+.Stirfry{
+margin-top: -1900px;
+width: 40%;
+}
+.Contact_information {
+  text-align: center;
+  font-size: large;
+  margin: 20px;
+}
+.Links {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 80px;
+    font-size: 1.5em;
+  }
+  
+  li a:hover {
+    background-color: rgb(158, 172, 137);
+  }
+
+.Food_Banner_Index {
+    margin-top: -20px;
+}
+.Footer {
+  background-color: rgb(104, 104, 104);
+  color: black;
+  text-align: center;
+  display: block;
+  clear: both;
+  width: 100%;
+}
+.News_and_blog {
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+.Hours {
+  width: 30%;
+  float: right;
+  padding: 20px;
+}
+
+.Map {
+  margin: 0px;
+  
+
+}
+.Sidedish {
+  display: block;
+ margin: 410px;
+ margin-top: 110px;
+ width: 46%;
+ margin-left: 450px;
+}
+pre{
+  font-family: "Majesti-banner-book", "lucida console", "courier new";
+      font-size: 1.2em;
+}
+  /*
+  li b {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+ 
+  li b:hover {
+    background-color: rgb(158, 172, 137);
+  }
+  */
+  .logo-image img{
+  width: 300px;
+  height: ""px;
+  border-radius: 20%;
+  overflow: hidden;
+  margin-top: -6px;
+  }
+  .Facebook img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-top: -6px;
+    }
+  .Twitter img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-top: -6px;
+    }
+  .Youtube img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: -70px;
+    overflow: hidden;
+    margin-bottom: -30px
+    }
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*Applying font families*/
+
+p{
+    font-family: "Majesti-banner-book", "lucida console", "courier new";
+        font-size: 1.2em;
+}
+
+
+h3{
+    font-family: "Majesti-banner-mediumitalic", "lucida consle", "courier new";
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*FONT FACES*/
+
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-Book.otf);
+    font-family: Majesti-banner-book;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-Bold.otf);
+    font-family: Majesti-banner-bold;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-BoldItalic.otf);
+    font-family: Majesti-banner-bolditalic;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-BookItalic.otf);
+    font-family: Majesti-banner-bookitalic;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-Heavy.otf);
+    font-family: Majesti-banner-heavy;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-HeavyItalic.otf);
+    font-family: Majesti-banner-heavyitalic;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-Light.otf);
+    font-family: Majesti-banner-light;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-LightItalic.otf);
+    font-family: Majesti-banner-lightitalic;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-Medium.otf);
+    font-family: Majesti-banner-medium;
+}
+
+@font-face{
+    src: url(Fonts/Majesti-Banner-MediumItalic.otf);
+    font-family: Majesti-banner-mediumitalic;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*BACKGROUND COLORS*/
+
+
+/*Primary Color Backgrounds*/
+
+.B_Fire_starter {background-color: rgb(190, 30, 45);}
+
+.B_Cool_down {background-color: rgb(138, 140, 143);}
+
+/*Secondary Color Backgrounds*/
+
+.B_Sleek {background-color: rgb(65, 57, 61);}
+
+.B_Lucky {background-color: rgb(213, 162, 141);}
+
+.B_Spicy {background-color: rgb(240, 78, 35);}
+
+.B_Bamboo {background-color: rgb(215, 228, 194);}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*TEXT COLORS*/
+
+/*Primary Color*/
+
+.Fire_starter {color: rgb(190, 30, 45);}
+
+.Cool_down {color: rgb(138, 140, 143);}
+
+/*Secondary Color*/
+
+.Sleek {color: rgb(65, 57, 61);}
+
+.Lucky {color: rgb(213, 162, 141);}
+
+.Spicy {color: rgb(240, 78, 35);}
+
+.Bamboo {color: rgb(215, 228, 194);}
